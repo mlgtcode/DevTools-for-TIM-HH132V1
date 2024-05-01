@@ -6,3 +6,5 @@ You can start the webservice with the following command: "php -S 192.168.1.58:85
 DO NOT EXPOSE THE WEB SERVICE TO THE WWW! Use a firewall to block the used port from unauthorized access!  Use this script at your own risk!
 
 ![Screenshot](ScreenshotWebUi.png)
+
+This script may work also for other TCL LINKHUB Router.
