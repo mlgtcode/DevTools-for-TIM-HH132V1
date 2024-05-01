@@ -78,7 +78,9 @@ function routerAPI($fname, $cpid, $params)
     {
         if ($fname === "GetUsageSettings")
         {
-            echo "\n<b>GIGAS USED (last reboot till now):</b> \n" . $result_dec["result"]["UsedData"] / pow(1024, 3) . " GB\n\n"; // traffico
+            echo "\n<b>GIGAS USED (last reboot till now):</b> \n" . $result_dec["result"]["UsedData"] / pow(1024, 3) . " GB\n\n"; // traffico   
+            // echo "<hr><b>GB TOTAL:</b> " . htmlspecialchars(file_get_contents('gb_tot.txt')) / pow(1024, 3) . " GB\n\n";
+            // echo "<br><br>SRL:" . $result_dec["result"]["UsedData"];
 
         }
         else
